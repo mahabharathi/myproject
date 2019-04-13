@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="en">
-{% load static %}
+{% load static %} <!-- where static values are loaded like loading a library -->
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -53,6 +53,7 @@
     <div class="container">
 
       <div class="row">
+        <!-- All the values that are passed from the views.py are walked through in loops and placed their output inside div tag -->
 
         {% for job in jobs.all %}
 
@@ -66,6 +67,7 @@
           </div>
           </a>
         </div>
+        <!-- this how the forloop is ended in django python project-->
           {% endfor %}
       </div>
     </div>
@@ -73,6 +75,7 @@
 
 </main>
 
+<!-- to use javascript poppers and bootstarp even not using the internet we make them as static files-->
 <<script src="{% static 'jquery-3.4.0.min.js' %}"></script>
 <script src="{% static 'popper.min.js' %}"></script>
 <script src="{% static 'js/bootstrap.min.js' %}"></script>
