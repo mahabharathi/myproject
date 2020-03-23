@@ -1,3 +1,4 @@
+#my answers
 def highest_even(li):
     highest_no=0
     for num in li:
@@ -5,4 +6,14 @@ def highest_even(li):
     return highest_no
 
 
-print(highest_even([10,8,3,4,5,2,3]))
+print(highest_even([2,10,8,3,4,5,2,3,14]))
+
+#instructor answer
+def highest_even_ins(li):
+    evens=[]
+    for item in li:
+        if item % 2 ==0:
+            evens.append(item)
+    return max(evens)
+
+print(highest_even_ins([2,10,8,3,4,5,2,3,14]))
