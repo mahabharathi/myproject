@@ -23,13 +23,14 @@ print(type(int((str(100))))) #type conversion
 weather="\n \t it\'s \"kind of \"sunny \n hope u have a good day!"
 print(weather)
 
+'''
 #Formatted strings
 name='mahabharathi'
 age=23
 print('Hi '+name+' . you are '+str(age)+' year old.') #normal
 
 #Formatted
-print(f'Hi {name}. You are {age} years old.')
+#print(f'Hi {name}. You are {age} years old.')
 print('Hi {}. You are {} years old.'.format('mahabharathi','23'))
 print('Hi {}. You are {} years old.'.format(name,age))
 print('Hi {0}. You are {1} years old.'.format(name,age))
@@ -49,3 +50,4 @@ print(selfish[::-1])#stepover backwards
 #immutability
 #cannor change character in a strings
 #we can reassign
+'''
