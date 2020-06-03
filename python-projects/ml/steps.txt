@@ -1,0 +1,14 @@
+1.import data
+2.clean the data
+3.split the data | Training set and Test set
+4.create a model | import algorithm (scikit)
+5.check the output
+6.improve
+
+Tools in Machine Learning:
+--------------------------
+NumPy -list and arrays
+Pandas -csv
+scikit learn- pre built algorithm
+matplotlib -chart(visualize data)
+jupyter notebook
